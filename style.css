@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.warp {
+    width: 500px;
+    margin: 50px auto;
+    background-color: cadetblue;
+    /* border-radius: 10px; */
+    /* border: 1px solid black; */
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    background-color: pink;
+}
+
+.cont {
+    margin: 15px 0px 5px 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cont input[type=checkbox] {
+    margin-left: 80px;
+}
+
+.cont input[type='email'] {
+    width: 200px;
+    height: 20px;
+}
+
+.cont input[type=password] {
+    width: 200px;
+    height: 20px;
+}
+
+.submit {
+    text-align: center;
+    padding: 30px;
+}
+
+.submit input {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: royalblue;
+}
